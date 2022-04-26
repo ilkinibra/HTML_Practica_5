@@ -1,0 +1,44 @@
+header{
+    background-color: rgb(44, 62, 80);
+    position: sticky;
+    top: 0;
+    .nav-item-tel{
+        display: none;
+    }
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.list-items{
+    display: flex;
+    list-style: none;
+}
+
+.list-items li:not(:first-child){
+    padding-left: 20px;
+}
+
+.list-items li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.list-items li a{
+    transition: 0.3s;
+}
+
+.list-items li:hover a{
+    color: #1abc9c;
+}

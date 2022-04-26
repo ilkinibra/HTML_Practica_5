@@ -1,0 +1,15 @@
+@media only screen and (max-width: 992px) {
+    .container{
+        width: 100% !important;
+    }
+    header{
+        .nav-item-tel{
+            display: block;
+        }
+    }
+    
+    .nav-items{
+        display: none;
+    }
+
+}

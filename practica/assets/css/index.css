@@ -1,0 +1,148 @@
+header {
+  background-color: #2c3e50;
+  position: sticky;
+  top: 0;
+}
+
+header .nav-item-tel {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+.navbar .logo a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.list-items {
+  display: flex;
+  list-style: none;
+}
+
+.list-items li:not(:first-child) {
+  padding-left: 20px;
+}
+
+.list-items li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+.list-items li a {
+  transition: 0.3s;
+}
+
+.list-items li:hover a {
+  color: #1abc9c;
+}
+
+#intro {
+  background-color: #1abc9c;
+  padding-bottom: 110px;
+}
+
+#intro .intro-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#intro .intro-wrapper .intro-image img {
+  width: 100%;
+}
+
+.intro-image {
+  padding: 75px 0 30px;
+}
+
+.intro-title {
+  display: flex;
+  justify-content: center;
+}
+
+.intro-title h1 {
+  color: #fff;
+  font-size: 30px;
+}
+
+.intro-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.intro-icon .icon i {
+  color: #fff;
+  font-size: 25px;
+}
+
+.intro-icon {
+  position: relative;
+}
+
+.intro-icon .icon::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 3px;
+  left: 60px;
+  top: 10px;
+}
+
+.intro-icon .icon::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 3px;
+  right: 60px;
+  top: 10px;
+}
+
+.intro-description {
+  margin-top: 15px;
+  color: #fff;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    width: 100% !important;
+  }
+  header .nav-item-tel {
+    display: block;
+  }
+  .nav-items {
+    display: none;
+  }
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.nav-item-tel {
+  background-color: #1abc9c;
+  color: white;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+}

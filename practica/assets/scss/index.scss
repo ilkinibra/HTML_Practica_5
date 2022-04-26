@@ -1,0 +1,20 @@
+@import "header";
+@import"intro";
+@import"responsive";
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.nav-item-tel{
+    background-color:#1abc9c ;
+    color: white;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
